@@ -55,7 +55,7 @@ MSCP和WMSCP都可以扩展可选参数k(分别形成k- scp和k- wscp)，指定�
 
 * Peach Set：基于贪婪的集合覆盖
 
-  <img src="D:\Typora图像\image-20230207143810221.png" alt="image-20230207143810221" style="zoom: 50%;" />
+  <img src="https://ningmo.oss-cn-beijing.aliyuncs.com/img/image-20230207143810221.png" alt="image-20230207143810221" style="zoom: 50%;" />
 
 * Random Set：随机选择k个种子文件
 
@@ -92,7 +92,7 @@ MSCP和WMSCP都可以扩展可选参数k(分别形成k- scp和k- wscp)，指定�
 
 我们准备将具有固定时间预算的最优调度描述为ILP最大化问题
 
-<img src="D:\Typora图像\image-20230207150910037.png" alt="image-20230207150910037" style="zoom:50%;" />
+<img src="https://ningmo.oss-cn-beijing.aliyuncs.com/img/image-20230207150910037.png" alt="image-20230207150910037" style="zoom:50%;" />
 
 约束(2)确保调度考虑发现的崩溃的顺序。特别地，如果找到了种子的第j个崩溃，则必须同时找到所有之前的崩溃。
 
