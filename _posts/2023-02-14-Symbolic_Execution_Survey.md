@@ -8,6 +8,8 @@ keywords: 论文记录
 
 ### [A Survey of Symbolic Execution Techniques][]
 
+[ppt][]
+
 #### 摘要
 
 许多安全和软件测试应用程序需要检查程序的某些属性是否适用于任何可能的使用场景。例如，一个识别软件漏洞的工具可能需要排除任何绕过程序身份验证的后门的存在。一种方法是使用不同的、可能是随机的输入来测试程序。由于后门可能只会被非常特定的程序工作负载击中，因此自动探索可能的输入空间是至关重要的。符号执行为这个问题提供了一个优雅的解决方案，它系统地同时探索许多可能的执行路径，而不一定需要具体的输入。该技术不是采用完全指定的输入值，而是将它们抽象为符号，并借助于约束求解器来构建实际的实例，从而导致属性违反。符号执行已经在过去40年开发的几十个工具中孵化出来，导致了许多著名的软件可靠性应用的重大实际突破。本调查的目标是提供该领域的主要想法、挑战和解决方案的概述，将它们提炼出来供广大受众使用。
@@ -235,4 +237,5 @@ int main()
 
 
 
-[A Survey of Symbolic Execution Techniques]:https://ningmorain.github.io/files/Survey__Symbolic_Execution.pdf
+[A Survey of Symbolic Execution Techniques]:https://ningmorain.github.io/files/Survey__Symbolic_Execution.pd
+[ppt]:https://ningmorain.github.io/files/SymbolicExecution.pptx
